@@ -3,8 +3,9 @@ import {
   fork,
   takeLatest,
   call,
+  select,
+  take,
   put,
-  select
 } from 'redux-saga/effects'
 import {
   CP_AUDIO_INFO_GET,
@@ -26,10 +27,18 @@ import {
   AUDIO_UPDATE_INFO,
   AUDIO_UPDATE_CURRENT_TIME,
   AUDIO_GET_NEXT_TRACK,
-  AUDIO_GET_PREVIOUS_TRACK
+  AUDIO_GET_PREVIOUS_TRACK,
+  // --------R_START-------------
+  ON_PRESS,
+  ON_PRESS_REQUEST,
+  ON_PRESS_SUCCESS,
+  ON_PRESS_FAILURE,
 } from './audioTypes'
 import AudioModule from '../../api/audioModule'
 import playerModule from '../../api/playerModule'
+import {getCapsules} from './audioSelector'
+import audioActions from './audioAction'
+
 
 /**
  * subroutines
@@ -95,6 +104,35 @@ function * getAudioDoc (data) {
 /**
  * player subroutines
  */
+
+function * next () {
+
+}
+
+function * previous () {
+
+}
+
+function * play () {
+
+}
+
+function * stop () {
+
+}
+
+function * forward15 () {
+
+}
+
+function * backward15 () {
+
+}
+
+function * seek () {
+
+}
+
 type arg = {[key: string]: number}
 function * audioLoad (value:{payload: { [audio: string]: {}, pos: number }}) {
   const {
@@ -239,11 +277,38 @@ function * audioUpdateCurrentTime () {
   }})
 }
 
+/**
+ * get the parentKey and childKey, according that,
+ * we can get the specific capsule file we want
+ * when we get the capsule, saving that into redux store
+ *
+ * @param parentKey : string
+ * @param childKey : string
+ * eg: Ks8Mn5r1iPn7FB8mLWI
+ */
+function * getAudioFileAndSaveIntoStore (parentKey, childKey) {
+  try {
+    yield put(audioActions.savePlayingAudioStaticInfoRequest())
+    let capsule = yield select(getCapsules(parentKey, childKey))
+    yield put(audioActions.savePlayingAudioStaticInfoSuccess(capsule))
+  }
+  catch(error) {
+    throw new Error(error)
+  }
+}
+
+function * onPressFlow ({payload}) {
+  const {parentKey, childKey} = payload
+  // const {payload: {parentKey, childKey}} = yield take(ON_PRESS)
+  yield put(audioActions.showAudioPopoutBar())
+  yield put(audioActions.onPressRequest())
+  yield call(getAudioFileAndSaveIntoStore, parentKey, childKey)
+}
 /***
  * watcher
  */
 function * audioSaga () {
-  yield takeLatest(AUDIO_LOAD, audioLoad)
+  // yield takeLatest(AUDIO_LOAD, press)
   yield takeLatest(AUDIO_LOADED, audioLoaded)
   yield takeLatest(AUDIO_PLAY, audioPlay)
   yield takeLatest(AUDIO_PAUSE, audioPause)
@@ -255,8 +320,12 @@ function * audioSaga () {
   yield takeLatest(CP_AUDIO_INFO_GET, getAudioInfo)
   yield takeLatest(CP_AUDIO_GOOD_CHANGE, setAudioGoodState)
   yield takeLatest(CP_AUDIO_GET_DOC, getAudioDoc)
+  // ----------R_START----------------
+  yield takeLatest(ON_PRESS, onPressFlow)
 }
 
+
 export default [
-  fork(audioSaga)
+  fork(audioSaga),
+  // fork(onPressFlow)
 ]

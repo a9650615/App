@@ -35,16 +35,16 @@ import { H2, H4, H5 } from '../../components/text'
 const mapStateToProps = (state) => {
   return {
     memberUid: state.member.uid,
-    likeCounter: state.audio.playingAudioInfo.likeCounter,
-    audioIsGood: state.audio.playingAudioInfo.audioIsGood,
-    capsulesId: state.audio.playingAudioInfo.capsulesId,
-    parentKey: state.audio.playingAudioInfo.parentKey,
+    likeCounter: state.audio.playingAudioStaticInfo.likeCounter,
+    audioIsGood: state.audio.playingAudioStaticInfo.audioIsGood,
+    capsulesId: state.audio.playingAudioStaticInfo.capsulesId,
+    parentKey: state.audio.playingAudioStaticInfo.parentKey,
     playState: state.audio.isPlaying,
-    audioName: state.audio.playingAudioInfo.name,
-    audioLengthFormatted: state.audio.playingAudioInfo.length.formatted,
-    audioLengthSec: Number(state.audio.playingAudioInfo.length.sec),
-    currentTimeFormatted: state.audio.playingAudioInfo.currentTime.formatted,
-    currentTimeSec: Number(state.audio.playingAudioInfo.currentTime.sec)
+    audioName: state.audio.playingAudioStaticInfo.audioName,
+    audioLengthFormatted: state.audio.playingAudioStaticInfo.length.formatted,
+    audioLengthSec: Number(state.audio.playingAudioStaticInfo.length.sec),
+    currentTimeFormatted: state.audio.playingAudioDynamicInfo.currentTime.formatted,
+    currentTimeSec: Number(state.audio.playingAudioDynamicInfo.currentTime.sec)
   }
 }
 

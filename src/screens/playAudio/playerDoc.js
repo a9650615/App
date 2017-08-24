@@ -15,17 +15,15 @@ import {
 import { Image } from 'react-native'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import audioAction from '../../reducer/audio/audioAction'
+// import audioAction from '../../reducer/audio/audioAction'
 import analyticAction from '../../reducer/analytic/analyticAction'
 import HtmlView from 'react-native-htmlview'
 import styles from './styles'
 
 @connect((state) => ({
-  capsuleId: state.audio.playingAudioInfo.capsulesId,
-  parentKey: state.audio.playingAudioInfo.parentKey,
-  draft: state.audio.playingAudioInfo.draft
+  draft: state.audio.playingAudioStaticInfo.draft
 }), (dispatch) => ({
-  actions: bindActionCreators({...audioAction, ...analyticAction}, dispatch),
+  actions: bindActionCreators({...analyticAction}, dispatch),
 }))
 
 class PlayerDoc extends Component {
@@ -35,7 +33,7 @@ class PlayerDoc extends Component {
 
   componentDidMount() {
     let { capsuleId, parentKey, actions } = this.props
-    actions.cpAudioGetDoc({capsuleId, parentKey})
+    // actions.cpAudioGetDoc({capsuleId, parentKey})
     actions.gaSetScreen(`playerDoc/${capsuleId}/${new Date().getHours()}`)
   }
 

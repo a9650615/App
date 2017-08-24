@@ -36,16 +36,19 @@ let buttons = {
   const {
     member,
     audio,
-    audio: { playingAudioInfo }
+    audio: { 
+      playingAudioDynamicInfo,
+      playingAudioStaticInfo
+    }
   } = state
   return {
     memberUid: member.uid,
     capsules: state.audio.capsules,
     isPlaying: state.audio.isPlaying,
-    audioName: playingAudioInfo.name,
-    currentTimeFormatted: playingAudioInfo.currentTime.formatted,
-    currentTimeSec: playingAudioInfo.currentTime.sec,
-    audioTimeSec: playingAudioInfo.length.sec
+    audioName: playingAudioDynamicInfo.audioName,
+    currentTimeFormatted: playingAudioDynamicInfo.currentTime.formatted,
+    currentTimeSec: playingAudioDynamicInfo.currentTime.sec,
+    audioTimeSec: playingAudioStaticInfo.length.sec
   }
 }, dispatch => {
   return {
