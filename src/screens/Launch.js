@@ -10,6 +10,8 @@ import memberAction from '../reducer/member/memberAction'
 import {
   Actions
 } from 'react-native-router-flux'
+import {Platform} from 'react-native'
+import Noticefaction from '../api/lib/FCMControl'
 
 if ( __DEV__ ) {
   firebase.initializeApp(CONFIG.FIREBASE.DEV)
@@ -23,6 +25,9 @@ if ( __DEV__ ) {
 
 export default class Main extends Component {
   componentDidMount () {
+
+    new Noticefaction().send()
+
     firebase.auth().onAuthStateChanged( user => {
       if (user) {
         const { actions } = this.props

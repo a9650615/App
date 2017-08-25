@@ -4472,6 +4472,10 @@ react-native-fbsdk@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/react-native-fbsdk/-/react-native-fbsdk-0.6.1.tgz#268bdbda5a16f5341ca43e3fa1beb88801e35a92"
 
+react-native-fcm@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-fcm/-/react-native-fcm-8.0.0.tgz#63d114dd98a6ef3994b8082b1287daca15bcdc20"
+
 react-native-google-analytics-bridge@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/react-native-google-analytics-bridge/-/react-native-google-analytics-bridge-5.0.1.tgz#b4b4eb00e1316d1aaa9f02304912355f8a5797e2"

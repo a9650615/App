@@ -54,3 +54,4 @@ fastlane/screenshots
 
 src/lib/config.js
 coverage/*
+ios/Pods/*

@@ -46,8 +46,11 @@
 		2DCD954D1E0B4F2C00145EB5 /* talkTekAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* talkTekAppTests.m */; };
 		2F838598B0B7460194BDEF86 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 608E959404D9423598FC9CCA /* libRNVectorIcons.a */; };
 		303F9089D36E48AF8F9F6AA2 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA33F2A1F6964D178CE8E4FB /* Ionicons.ttf */; };
+		3D92F50B9A0C4E45789EADA5 /* libPods-talkTekApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 990502C326E2808FE1C3859E /* libPods-talkTekApp-tvOS.a */; };
 		481E616380CD4C93B15089A7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0069F64452C745C5A7AC1997 /* AddressBook.framework */; };
 		4C5C4DD76A824CFFBB53283B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A760A0EEC3CB4D1BB7FD41DC /* SimpleLineIcons.ttf */; };
+		4E78565FB39C49C00484625C /* Pods_talkTekApp_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06C39CA0E3C6C66BEA9FB59 /* Pods_talkTekApp_tvOSTests.framework */; };
+		58F3DF2C1F4EAD870058AC50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58F3DF2B1F4EAD870058AC50 /* GoogleService-Info.plist */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		67F6645E377F499DAA816118 /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B94F75DBFF86440CA029EB3B /* libRNSound.a */; };
 		69C66507787248FCAF1FF11D /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D7B15A1C2549F8A1F4D578 /* libCodePush.a */; };
@@ -74,6 +77,7 @@
 		702B3A0FB9464D8FBCC92EDA /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41A425C84E0044FD8ADB7615 /* MaterialIcons.ttf */; };
 		7193D8D661C44BCEB80D879E /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A072656BE3FA4DEABECCAB3B /* Zocial.ttf */; };
 		753B9DF00A02403CACE41CC4 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E566A8FCD744F40BF260F29 /* SimpleLineIcons.ttf */; };
+		7C344BF0D55399B9D9DAF69C /* Pods_talkTekApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC772A788BA6B81808A4F20 /* Pods_talkTekApp.framework */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		864B5B7A4A874BC6A1A4FFDF /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBFAA3B6AB3414589F82564 /* SafariServices.framework */; };
 		9D1B392EA08B450E8F7AB3D0 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D90913E9FBF94177B9EFAE28 /* Foundation.ttf */; };
@@ -81,7 +85,9 @@
 		A8F2E469588A45E396CBC681 /* libRCTFBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC2044353B4754910E7D6C /* libRCTFBSDK.a */; };
 		B3BCC57B2B66482CB64FEA10 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83AD79272A014B59B27AE500 /* Entypo.ttf */; };
 		B4B366607EC242DA83C461FB /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71206681ABD44C38EA4F2CE /* Zocial.ttf */; };
+		B4DB178BAC7343DBABBF77E5 /* libRNFIRMessaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DEE7B3BA54AD599948DE4 /* libRNFIRMessaging.a */; };
 		BB7C6645E5F04F1FA6B8A3D4 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B17E2214BCA04B999D7B2299 /* Entypo.ttf */; };
+		C5C4115D991353BC7866932F /* Pods_talkTekAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7099E0A5C5561D5F06063E5A /* Pods_talkTekAppTests.framework */; };
 		C93A093C3FF84B938D1D0EA2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 462BBF7E329D43CD9BAEE279 /* libz.tbd */; };
 		D23A06E3EA084303939A44ED /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9D31346050746BEA064E125 /* rubicon-icon-font.ttf */; };
 		E1E7B60C7CE6487AB2682D2B /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B14F8F6A99BD42ED91663F0B /* EvilIcons.ttf */; };
@@ -250,6 +256,13 @@
 			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
 			remoteInfo = "jschelpers-tvOS";
 		};
+		58F3DF611F4EAE590058AC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3922436C9A04372AAE13F91 /* RNFIRMessaging.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFIRMessaging;
+		};
 		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
@@ -355,6 +368,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* talkTekAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = talkTekAppTests.m; sourceTree = "<group>"; };
 		0112A638043C46AFAD9FD052 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		01F844B697990E29EC480AF8 /* Pods-talkTekApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkTekApp-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-talkTekApp-tvOS/Pods-talkTekApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		04947E088F104918A8FB6F9D /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		0B377DB722414C81A46C8BD1 /* RNGoogleSignin.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGoogleSignin.xcodeproj; path = "../node_modules/react-native-google-signin/ios/RNGoogleSignin.xcodeproj"; sourceTree = "<group>"; };
 		0E7E4ABB5597494F97AFF25C /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
@@ -368,6 +382,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = talkTekApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = talkTekApp/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		25F5E6B57216843899976EE2 /* Pods-talkTekApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkTekApp-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-talkTekApp-tvOS/Pods-talkTekApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* talkTekApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "talkTekApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* talkTekApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "talkTekApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8C3CA9E2944D64BF181C48 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
@@ -375,7 +390,12 @@
 		3BA866BFF0FE426F8FCFB0D9 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		3D0AE8D1390C4CC396587BEE /* RNSound.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
 		41A425C84E0044FD8ADB7615 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		45E56968C047296E820C5176 /* Pods-talkTekAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkTekAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-talkTekAppTests/Pods-talkTekAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		462BBF7E329D43CD9BAEE279 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		48C4C5FD1F263849CBCD1220 /* Pods-talkTekApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkTekApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-talkTekApp/Pods-talkTekApp.release.xcconfig"; sourceTree = "<group>"; };
+		58F3DF2B1F4EAD870058AC50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58F3DFB31F4EBA180058AC50 /* talkTekApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = talkTekApp.entitlements; path = talkTekApp/talkTekApp.entitlements; sourceTree = "<group>"; };
+		59C737E1510AE17ABEA6D0B7 /* Pods-talkTekApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkTekApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-talkTekApp/Pods-talkTekApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		608E959404D9423598FC9CCA /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		6D4C2B141EDEFCC700768D8D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -399,6 +419,7 @@
 		6DF478FF1EE114F5006263A2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		6E566A8FCD744F40BF260F29 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		6F11469CDC034804BD2BBF8A /* libRNGoogleSignin.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGoogleSignin.a; sourceTree = "<group>"; };
+		7099E0A5C5561D5F06063E5A /* Pods_talkTekAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_talkTekAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D757E280FD46AFBD136C1F /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
 		746558BD0D004B0097081F93 /* RCTGoogleAnalyticsBridge.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTGoogleAnalyticsBridge.xcodeproj; path = "../node_modules/react-native-google-analytics-bridge/ios/RCTGoogleAnalyticsBridge/RCTGoogleAnalyticsBridge.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -406,24 +427,32 @@
 		83AD79272A014B59B27AE500 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		83D7B15A1C2549F8A1F4D578 /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libCodePush.a; sourceTree = "<group>"; };
 		8CBFAA3B6AB3414589F82564 /* SafariServices.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		974E477CCB046D0474A88339 /* Pods-talkTekApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkTekApp-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-talkTekApp-tvOSTests/Pods-talkTekApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		990502C326E2808FE1C3859E /* libPods-talkTekApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-talkTekApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06970D697A94BEB9D53BF63 /* libRCTGoogleAnalyticsBridge.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTGoogleAnalyticsBridge.a; sourceTree = "<group>"; };
 		A072656BE3FA4DEABECCAB3B /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		A5318C91C27042F8A624882E /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		A760A0EEC3CB4D1BB7FD41DC /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		AA33F2A1F6964D178CE8E4FB /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		AE5092D46631F22308361EB4 /* Pods-talkTekApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkTekApp-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-talkTekApp-tvOSTests/Pods-talkTekApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B06C39CA0E3C6C66BEA9FB59 /* Pods_talkTekApp_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_talkTekApp_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14F8F6A99BD42ED91663F0B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		B17E2214BCA04B999D7B2299 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		B4BA6C7E28AB417988053D7E /* RCTFBSDK.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTFBSDK.xcodeproj; path = "../node_modules/react-native-fbsdk/ios/RCTFBSDK.xcodeproj"; sourceTree = "<group>"; };
 		B8200131C66642EEA4F87752 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		B94F75DBFF86440CA029EB3B /* libRNSound.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSound.a; sourceTree = "<group>"; };
+		BF9BB5DEE41BA3308EAD462E /* Pods-talkTekAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-talkTekAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-talkTekAppTests/Pods-talkTekAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		C1BC67EDDDE14E03BB87A80A /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C3922436C9A04372AAE13F91 /* RNFIRMessaging.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFIRMessaging.xcodeproj; path = "../node_modules/react-native-fcm/ios/RNFIRMessaging.xcodeproj"; sourceTree = "<group>"; };
 		C71206681ABD44C38EA4F2CE /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		D39B46BB8E9B4B72B32B72FD /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		D82DEE7B3BA54AD599948DE4 /* libRNFIRMessaging.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFIRMessaging.a; sourceTree = "<group>"; };
 		D892BE44D56B42A0A5BFF911 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		D90913E9FBF94177B9EFAE28 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		E5EC2044353B4754910E7D6C /* libRCTFBSDK.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTFBSDK.a; sourceTree = "<group>"; };
 		E9D31346050746BEA064E125 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		F9C26B65934C4CAEABD78520 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		FDC772A788BA6B81808A4F20 /* Pods_talkTekApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_talkTekApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE68B347BBFA443E8AD15DD9 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -437,6 +466,7 @@
 				6DC194451ECE9858006AA0A3 /* FBSDKShareKit.framework in Frameworks */,
 				6DC194431ECE9858006AA0A3 /* FBSDKLoginKit.framework in Frameworks */,
 				6DC1943F1ECE9858006AA0A3 /* Bolts.framework in Frameworks */,
+				C5C4115D991353BC7866932F /* Pods_talkTekAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +508,8 @@
 				864B5B7A4A874BC6A1A4FFDF /* SafariServices.framework in Frameworks */,
 				481E616380CD4C93B15089A7 /* AddressBook.framework in Frameworks */,
 				07AADFD05F314553BD716BB2 /* libRCTGoogleAnalyticsBridge.a in Frameworks */,
+				B4DB178BAC7343DBABBF77E5 /* libRNFIRMessaging.a in Frameworks */,
+				7C344BF0D55399B9D9DAF69C /* Pods_talkTekApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +525,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				3D92F50B9A0C4E45789EADA5 /* libPods-talkTekApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +533,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E78565FB39C49C00484625C /* Pods_talkTekApp_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,11 +620,13 @@
 		13B07FAE1A68108700A75B9A /* talkTekApp */ = {
 			isa = PBXGroup;
 			children = (
+				58F3DFB31F4EBA180058AC50 /* talkTekApp.entitlements */,
 				6D4C2B161EDFE8C100768D8D /* launch_image.png */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				58F3DF2B1F4EAD870058AC50 /* GoogleService-Info.plist */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -633,8 +669,20 @@
 				8CBFAA3B6AB3414589F82564 /* SafariServices.framework */,
 				C1BC67EDDDE14E03BB87A80A /* SystemConfiguration.framework */,
 				0069F64452C745C5A7AC1997 /* AddressBook.framework */,
+				FDC772A788BA6B81808A4F20 /* Pods_talkTekApp.framework */,
+				990502C326E2808FE1C3859E /* libPods-talkTekApp-tvOS.a */,
+				B06C39CA0E3C6C66BEA9FB59 /* Pods_talkTekApp_tvOSTests.framework */,
+				7099E0A5C5561D5F06063E5A /* Pods_talkTekAppTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58F3DF411F4EAE580058AC50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58F3DF621F4EAE590058AC50 /* libRNFIRMessaging.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -750,6 +798,7 @@
 				B4BA6C7E28AB417988053D7E /* RCTFBSDK.xcodeproj */,
 				0B377DB722414C81A46C8BD1 /* RNGoogleSignin.xcodeproj */,
 				746558BD0D004B0097081F93 /* RCTGoogleAnalyticsBridge.xcodeproj */,
+				C3922436C9A04372AAE13F91 /* RNFIRMessaging.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -774,6 +823,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				D938DDFBF116496A87E448FA /* Resources */,
 				4C2F6BCCA78C4F75985EA84E /* Frameworks */,
+				D3DBFD0C0FC1B889690CF0CD /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -788,6 +838,21 @@
 				2D02E4901E0B4A5D006451C7 /* talkTekApp-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D3DBFD0C0FC1B889690CF0CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59C737E1510AE17ABEA6D0B7 /* Pods-talkTekApp.debug.xcconfig */,
+				48C4C5FD1F263849CBCD1220 /* Pods-talkTekApp.release.xcconfig */,
+				25F5E6B57216843899976EE2 /* Pods-talkTekApp-tvOS.debug.xcconfig */,
+				01F844B697990E29EC480AF8 /* Pods-talkTekApp-tvOS.release.xcconfig */,
+				AE5092D46631F22308361EB4 /* Pods-talkTekApp-tvOSTests.debug.xcconfig */,
+				974E477CCB046D0474A88339 /* Pods-talkTekApp-tvOSTests.release.xcconfig */,
+				45E56968C047296E820C5176 /* Pods-talkTekAppTests.debug.xcconfig */,
+				BF9BB5DEE41BA3308EAD462E /* Pods-talkTekAppTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D938DDFBF116496A87E448FA /* Resources */ = {
@@ -826,9 +891,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "talkTekAppTests" */;
 			buildPhases = (
+				B35DC0CBF6033C160377AAD1 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				551E76F79EAF7466D4CCB53E /* [CP] Embed Pods Frameworks */,
+				5E49FEE33C901ADCB588CE09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -844,10 +912,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "talkTekApp" */;
 			buildPhases = (
+				29F6218B2A26CA9234095B4F /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				24E61207BFEF373ED0E0C93E /* [CP] Embed Pods Frameworks */,
+				4DDB0774809A9BA366BBB7CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -862,10 +933,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "talkTekApp-tvOS" */;
 			buildPhases = (
+				5CA6694456614F155E8E7CDB /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
 				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+				A92999D0EA9FB703E56CE9FC /* [CP] Embed Pods Frameworks */,
+				6D3D912CE6B1B0EF9EEC7AA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -880,9 +954,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "talkTekApp-tvOSTests" */;
 			buildPhases = (
+				D58BC4088E6E8C0A3990B10A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
+				22A6543F6D2876908A38785A /* [CP] Embed Pods Frameworks */,
+				861E9C06285458496BA744FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -909,8 +986,16 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 6KEU8BEAD8;
+						DevelopmentTeam = LPN95EDSG4;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -998,6 +1083,10 @@
 				{
 					ProductGroup = 6D6B3CD41ECC1C90005B149E /* Products */;
 					ProjectRef = 6D6B3CD31ECC1C90005B149E /* ReactNativeAudioToolkit.xcodeproj */;
+				},
+				{
+					ProductGroup = 58F3DF411F4EAE580058AC50 /* Products */;
+					ProjectRef = C3922436C9A04372AAE13F91 /* RNFIRMessaging.xcodeproj */;
 				},
 				{
 					ProductGroup = 6DF3E92B1ED430FB00D7A8AB /* Products */;
@@ -1174,6 +1263,13 @@
 			remoteRef = 3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		58F3DF621F4EAE590058AC50 /* libRNFIRMessaging.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFIRMessaging.a;
+			remoteRef = 58F3DF611F4EAE590058AC50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1292,6 +1388,7 @@
 				EFFD05EB79D3433DB99B37C3 /* Roboto.ttf in Resources */,
 				21041427629B41939B4F8274 /* Roboto_medium.ttf in Resources */,
 				4C5C4DD76A824CFFBB53283B /* SimpleLineIcons.ttf in Resources */,
+				58F3DF2C1F4EAD870058AC50 /* GoogleService-Info.plist in Resources */,
 				7193D8D661C44BCEB80D879E /* Zocial.ttf in Resources */,
 				D23A06E3EA084303939A44ED /* rubicon-icon-font.ttf in Resources */,
 				B3BCC57B2B66482CB64FEA10 /* Entypo.ttf in Resources */,
@@ -1339,6 +1436,59 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
+		22A6543F6D2876908A38785A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkTekApp-tvOSTests/Pods-talkTekApp-tvOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24E61207BFEF373ED0E0C93E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-talkTekApp/Pods-talkTekApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkTekApp/Pods-talkTekApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29F6218B2A26CA9234095B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-talkTekApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1352,6 +1502,155 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		4DDB0774809A9BA366BBB7CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkTekApp/Pods-talkTekApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		551E76F79EAF7466D4CCB53E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-talkTekAppTests/Pods-talkTekAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkTekAppTests/Pods-talkTekAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CA6694456614F155E8E7CDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-talkTekApp-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E49FEE33C901ADCB588CE09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkTekAppTests/Pods-talkTekAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D3D912CE6B1B0EF9EEC7AA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkTekApp-tvOS/Pods-talkTekApp-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		861E9C06285458496BA744FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkTekApp-tvOSTests/Pods-talkTekApp-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92999D0EA9FB703E56CE9FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-talkTekApp-tvOS/Pods-talkTekApp-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35DC0CBF6033C160377AAD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-talkTekAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D58BC4088E6E8C0A3990B10A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-talkTekApp-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1420,6 +1719,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E56968C047296E820C5176 /* Pods-talkTekAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 6KEU8BEAD8;
@@ -1439,12 +1739,14 @@
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
 					"$(SRCROOT)/../node_modules/react-native-google-analytics-bridge/ios/RCTGoogleAnalyticsBridge/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
 				);
 				INFOPLIST_FILE = talkTekAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1463,6 +1765,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9BB5DEE41BA3308EAD462E /* Pods-talkTekAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1479,12 +1782,14 @@
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
 					"$(SRCROOT)/../node_modules/react-native-google-analytics-bridge/ios/RCTGoogleAnalyticsBridge/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
 				);
 				INFOPLIST_FILE = talkTekAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1503,16 +1808,18 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C737E1510AE17ABEA6D0B7 /* Pods-talkTekApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = talkTekApp/talkTekApp.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 6KEU8BEAD8;
+				DEVELOPMENT_TEAM = LPN95EDSG4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"\"$(SRCROOT)/../../../../../Documents/FacebookSDK\"",
+					"$(PROJECT_DIR)/FacebookSDK",
 					"$(PROJECT_DIR)/GoogleSdk",
 				);
 				HEADER_SEARCH_PATHS = (
@@ -1523,6 +1830,7 @@
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
 					"$(SRCROOT)/../node_modules/react-native-google-analytics-bridge/ios/RCTGoogleAnalyticsBridge/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
 				);
 				INFOPLIST_FILE = talkTekApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1540,15 +1848,17 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C4C5FD1F263849CBCD1220 /* Pods-talkTekApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = talkTekApp/talkTekApp.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6KEU8BEAD8;
+				DEVELOPMENT_TEAM = LPN95EDSG4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"\"$(SRCROOT)/../../../../../Documents/FacebookSDK\"",
+					"$(PROJECT_DIR)/FacebookSDK",
 					"$(PROJECT_DIR)/GoogleSdk",
 				);
 				HEADER_SEARCH_PATHS = (
@@ -1559,9 +1869,11 @@
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
 					"$(SRCROOT)/../node_modules/react-native-google-analytics-bridge/ios/RCTGoogleAnalyticsBridge/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
 				);
 				INFOPLIST_FILE = talkTekApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1576,6 +1888,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F5E6B57216843899976EE2 /* Pods-talkTekApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1594,11 +1907,13 @@
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
 					"$(SRCROOT)/../node_modules/react-native-google-analytics-bridge/ios/RCTGoogleAnalyticsBridge/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
 				);
 				INFOPLIST_FILE = "talkTekApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1620,6 +1935,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F844B697990E29EC480AF8 /* Pods-talkTekApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1638,11 +1954,13 @@
 					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
 					"$(SRCROOT)/../node_modules/react-native-google-analytics-bridge/ios/RCTGoogleAnalyticsBridge/**",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
 				);
 				INFOPLIST_FILE = "talkTekApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1664,6 +1982,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5092D46631F22308361EB4 /* Pods-talkTekApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1683,6 +2002,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.talkTekApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1694,6 +2014,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974E477CCB046D0474A88339 /* Pods-talkTekApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1707,6 +2028,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
