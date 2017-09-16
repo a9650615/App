@@ -8,7 +8,7 @@ import {
   Dimensions,
   ActivityIndicator,
   TouchableOpacity,
-  Platform,
+  Platform
 } from 'react-native'
 import {
   Container,
@@ -31,6 +31,7 @@ import { Actions } from 'react-native-router-flux'
 import { H2, H3, H4 } from '../../components/text'
 import { Button } from '../../components/button'
 import { COLORS, LAYOUT } from 'StyleConfig'
+import { hook } from 'cavy'
 
 let tracker = new GoogleAnalyticsTracker('UA-100475279-1',{ test: 3})
 
@@ -47,7 +48,8 @@ const {
 }), dispatch => ({
   actions: bindActionCreators(memberAction, dispatch)
 }))
-export default class Login extends Component {
+
+class Login extends Component {
   constructor (props) {
     super(props)
     this.state = {
@@ -196,6 +198,7 @@ export default class Login extends Component {
                   onChangeText={text => this.setState({email: text})}
                   keyboardType='email-address'
                   autoCapitalize='none'
+                  ref={this.props.generateTestHook('Login.Email')}
                 />
               </Item>
               <Item style={{...styles.item, borderColor: 'transparent'}}>
@@ -204,6 +207,7 @@ export default class Login extends Component {
                   style={styles.input}
                   onChangeText={text => this.setState({password: text})}
                   secureTextEntry
+                  ref={this.props.generateTestHook('Login.Password')}
                 />
               </Item>
             </Form>
@@ -215,6 +219,7 @@ export default class Login extends Component {
                 borderRadius={5}
                 padding={10}
                 fullWidth
+                refs={this.props.generateTestHook('Login.LoginButton')}
                 onPress={this._onEmailPasswordLogin.bind(this)}
               />
             </View>
@@ -297,4 +302,4 @@ export default class Login extends Component {
   }
 }
 
-
+export default hook(Login)

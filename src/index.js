@@ -29,6 +29,7 @@ import PopOutBar from './components/PopOutBar'
 import KnowledgeCapsuleTab from './screens/knowledgeCapsule/Tab'
 import MemberCenterTab from './screens/memberCenter/Tab'
 import TalkContent from './screens/talkContent/Tab'
+import { hook } from 'cavy'
 
 class App extends Component {
   componentDidMount () {
@@ -48,12 +49,12 @@ class App extends Component {
 
     return (
       <Provider store={store}>
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1 }} ref={this.props.generateTestHook('Router')}>
           <StatusBar
             barStyle='light-content'
           />
           <Router createReducer={reducerCreate}>
-            <Overlay>
+            {/* <Overlay> */}
               <Modal
                 hideNavBar
                 transitionConfig={() => ({ screenInterpolator: CardStackStyleInterpolator.forVertical })}
@@ -100,12 +101,12 @@ class App extends Component {
                   key='playAudioScreen'
                   component={PlayAudioScreen}
                 />
-              </Modal>
               <Scene
                 key='popOutBar'
                 component={PopOutBar}
               />
-            </Overlay>
+              </Modal>
+            {/* </Overlay> */}
           </Router>
         </View>
       </Provider>
@@ -119,4 +120,4 @@ let codePushOptions = {
 
 App = CodePush(codePushOptions)(App)
 
-export default App
+export default hook(App)
