@@ -655,6 +655,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		58B696201F6EED830094FFA1 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				B94F75DBFF86440CA029EB3B /* libRNSound.a */,
+				608E959404D9423598FC9CCA /* libRNVectorIcons.a */,
+				83D7B15A1C2549F8A1F4D578 /* libCodePush.a */,
+				E5EC2044353B4754910E7D6C /* libRCTFBSDK.a */,
+				6F11469CDC034804BD2BBF8A /* libRNGoogleSignin.a */,
+				A06970D697A94BEB9D53BF63 /* libRCTGoogleAnalyticsBridge.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -793,6 +806,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				D938DDFBF116496A87E448FA /* Resources */,
 				4C2F6BCCA78C4F75985EA84E /* Frameworks */,
+				58B696201F6EED830094FFA1 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";

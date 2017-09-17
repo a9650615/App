@@ -8,7 +8,7 @@ import {
   Dimensions,
   ActivityIndicator,
   TouchableOpacity,
-  Platform,
+  Platform
 } from 'react-native'
 import {
   Container,
@@ -216,6 +216,7 @@ export default class Login extends Component {
                 padding={10}
                 fullWidth
                 onPress={this._onEmailPasswordLogin.bind(this)}
+                testID='LoginBtn'
               />
             </View>
             <H4 gray style={styles.or}>

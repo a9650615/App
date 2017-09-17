@@ -25,9 +25,9 @@ export default class DefaultButton extends Component {
 
     if (this.props.textColor)
       colors[this.props.textColor] = true
-
+    console.log(this.props.testID)
     return (
-      <TouchableOpacity style={[this.props.style, LAYOUT.horizontal, {justifyContent: 'center'}]} onPress={this.props.onPress}>
+      <TouchableOpacity testID={this.props.testID} style={[this.props.style, LAYOUT.horizontal, {justifyContent: 'center'}]} onPress={this.props.onPress}>
         {this.props.leftElement}
         <View style={textStyle}>
           <TextComp {...colors} bold={this.props.bold}>{this.props.text}</TextComp>
