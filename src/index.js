@@ -10,7 +10,9 @@ import createStore from './lib/configureStore'
 
 import {
   StatusBar,
-  View
+  View,
+  KeyboardAvoidingView,
+  TextInput
 } from 'react-native'
 import {
   Router,
@@ -29,6 +31,7 @@ import Login from './screens/loginOrRegister/login'
 import Register from './screens/loginOrRegister/register'
 import ForgotPassword from './screens/loginOrRegister/forgetpw'
 import PopOutBar from './components/PopOutBar'
+import CommnetInput from './components/commentInput'
 import KnowledgeCapsuleTab from './screens/knowledgeCapsule/Tab'
 import MemberCenterTab from './screens/memberCenter/Tab'
 import TalkContent from './screens/talkContent/Tab'
@@ -111,6 +114,7 @@ class App extends Component {
               />
             </Overlay>
           </Router>
+          <CommnetInput />
         </View>
         </Root>
       </Provider>

@@ -1,6 +1,7 @@
 import React from 'react'
 import {Scene, Stack} from 'react-native-router-flux'
 import talkContent from './index'
+import talkList from '../talkList'
 import Icon from '../../components/img/icon/MediumIcon'
 import {Tabstyles, TabIconLink} from '../Tabstyles'
 
@@ -20,6 +21,13 @@ export default (
       )
     }}
   >
+    <Scene
+      key='talkList'
+      component={talkList}
+      title='小講列表'
+      titleStyle={Tabstyles.titleStyle}
+      navigationBarStyle={Tabstyles.headerStyle}
+    />
     <Scene
       initial
       key='talkContentlist'

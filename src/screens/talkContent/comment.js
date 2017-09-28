@@ -1,7 +1,12 @@
 import React, { Component } from 'react'
 import {
-  View
+  View,
+  TextInput,
+  KeyboardAvoidingView
 } from 'react-native'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
+import CommentAction from '../../reducer/comment/commentAction'
 import { H3, H4 } from '../../components/text'
 import { COLORS, LAYOUT } from 'StyleConfig'
 import Hr from './component/hr'
@@ -16,7 +21,7 @@ const tempData = [
 class Comment extends Component {
 
   _onPressComment =  () => {
-
+    this.props.action.showCommentInput()
   }
 
   _renderComment () {
@@ -105,4 +110,14 @@ const styles = {
   }
 }
 
-export default Comment
+const mapStateToProps = () => {
+  return {}
+}
+
+const mapActionToProps = (dispatch) => {
+  return {
+    action: bindActionCreators({ ...CommentAction }, dispatch)
+  }
+}
+
+export default connect(mapStateToProps, mapActionToProps)(Comment)
